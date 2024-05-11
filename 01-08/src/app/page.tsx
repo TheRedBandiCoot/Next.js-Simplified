@@ -75,11 +75,13 @@ async function TodoList() {
             Example/1/54/as87wa
           </Link>
         </li>
-        {post.map((post: any) => (
-          <li key={post.id}>
-            <Link href={`/todos/${post.id}`}>{post.title}</Link>
-          </li>
-        ))}
+        {post.map((post: any,i: number) => {
+	   if(i >= 3) return;
+	   return( 
+	   	<li key={post.id}> 
+		   <Link href={`/todos/${post.id}`}>{post.title}</Link>
+		</li> 
+	)})}
       </ul>
     </>
   );
