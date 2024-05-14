@@ -4,6 +4,8 @@ import { TodoList } from '@/components/TodoList';
 import { useEffect, useState } from 'react';
 
 export default async function ClientPage() {
+  console.log('client');
+
   const [todos, setTodos] = useState<Todo[]>([]);
 
   useEffect(() => {

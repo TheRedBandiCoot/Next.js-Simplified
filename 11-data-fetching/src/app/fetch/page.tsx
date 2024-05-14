@@ -5,6 +5,8 @@ export default async function FetchPage() {
   const todos2 = await getTodosFetch();
   const users = await getUsers();
 
+  console.log('Fetch');
+
   return (
     <>
       <h1>Todos From Fetch</h1>

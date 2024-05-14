@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: rgb(19, 23, 32);
+  color: white;
+}
+
+h1 {
+  @apply font-extrabold text-4xl;
+}
+
+h2 {
+  @apply font-semibold text-2xl;
+}
+
+.main {
+  @apply overflow-y-scroll border-red-300 border-4 rounded-md w-11/12 text-center h-4/5 flex flex-col items-center justify-start;
+}
+.main::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
+.main::-webkit-scrollbar-thumb {
+  background-color: rgba(184, 208, 25, 0.564);
+}
+
+.btn {
+  background-color: #4caf50; /* green */
+  color: #ffffff; /* white */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #3e8e41; /* darker green */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+  background-color: #3e8e41; /* darker green */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}

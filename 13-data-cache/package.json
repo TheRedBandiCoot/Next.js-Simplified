@@ -1,0 +1,30 @@
+{
+  "name": "13-data-cache",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve": "json-server src/api/db.json --watch --port 3001 --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "json-server": "0.17.2",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "prisma": "^5.13.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
