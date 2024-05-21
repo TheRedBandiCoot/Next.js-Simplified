@@ -1,0 +1,41 @@
+{
+  "name": "16-server-vs-client-components",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve": "json-server src/api/db.json --watch --port 3001 --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "client-only": "^0.0.1",
+    "clsx": "^2.1.1",
+    "json-server": "0.17.2",
+    "lucide-react": "^0.378.0",
+    "next": "14.3.0-canary.68",
+    "react": "19.0.0-beta-26f2496093-20240514",
+    "react-dom": "19.0.0-beta-26f2496093-20240514",
+    "react-select": "^5.8.0",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "npm:types-react@19.0.0-beta.1",
+    "@types/react-dom": "npm:types-react-dom@beta",
+    "eslint": "^8",
+    "eslint-config-next": "14.3.0-canary.68",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta"
+  }
+}
