@@ -1,0 +1,20 @@
+[
+  {
+    "Title": "TypeScript Simplified",
+    "Description": "Instantly increase your earning potential and learn to build scalable projects in just 5 hours",
+    "Price": "$60",
+    "Image": "https://d31ezp3r8jwmks.cloudfront.net/crbx3rznhvpyuroiflicfzejn060"
+  },
+  {
+    "Title": "Learn CSS Today",
+    "Description": "Learn modern CSS features and advanced CSS concepts in less than a day with this highly focused project-based CSS course",
+    "Price": "$60",
+    "Image": "https://d31ezp3r8jwmks.cloudfront.net/6vxs0mxw4dbu8es4fofpnt1yqj4y"
+  },
+  {
+    "Title": "React Hooks Simplified",
+    "Description": "This course covers every single React hook you need to know in order to create any application. This course also covers 30 unique custom hooks to give you inspiration and ideas on how you can create and use React hooks in your application.",
+    "Price": "Free",
+    "Image": "https://d31ezp3r8jwmks.cloudfront.net/c6xfjxncxdxcbf8c92mtvmiie1ci"
+  }
+]

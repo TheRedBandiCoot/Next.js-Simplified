@@ -1,0 +1,17 @@
+{
+  "name": "web-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.4",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.9.0"
+  }
+}
