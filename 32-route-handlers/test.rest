@@ -1,0 +1,30 @@
+GET http://localhost:3000/posts
+
+###
+POST http://localhost:3000/posts
+###
+POST http://localhost:3000/posts
+Content-Type: "application/json"
+
+{
+    "title" : "Post Request 2",
+    "body" : "Random 2",
+    "userId" : 3
+}
+
+### 
+GET http://localhost:3000/posts/102
+
+###
+PUT http://localhost:3000/posts/102
+Content-Type: application/json
+
+{
+    "title": "Edited - Updated"
+}
+
+###
+DELETE http://localhost:3000/posts/101
+
+###
+GET http://localhost:3000/posts?userId=3&query=edited

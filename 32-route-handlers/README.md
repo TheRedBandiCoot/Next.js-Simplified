@@ -10,6 +10,9 @@ The starting code for this project is very similar to the previous project. The 
 
 The main goal of this project is to practice working with a database instead of `fetch` as well as practice working with search parameters. To get the database working you will need to run the following commands:
 
+- `npx or pnpm dlx prisma init` - initialize Prisma (make sure no "prisma" folder exist in your project root dir before run the command)
+- Make sure to have an .env file and this value [`DATABASE_URL="file:./dev.db"` - .env file] in it, if you already have a prisma initial setup but no env data
+
 1. `npm or pnpm install` - This will install all the dependencies for the project.
 2. `npx or pnpm dlx prisma migrate dev` - This will create the database and all the tables.
 3. `npx or pnpm dlx prisma studio` - Watch dbs file live on <a href="http://localhost:5555">Prisma Studio</a>

@@ -1,0 +1,55 @@
+* {
+  font-size: 1.5rem;
+}
+
+:root {
+  --bg-color: rgb(36, 36, 36);
+  --text-color: lightgrey;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  width: calc(100% - 1rem);
+  max-width: 20rem;
+  margin-inline: auto;
+  row-gap: 0.5rem;
+}
+
+.login-form label {
+  font-size: 1rem;
+}
+
+.login-form button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(15, 87, 129);
+}
+.login-form input {
+  background-color: rgb(49, 49, 49);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+dialog::backdrop {
+  background-color: rgba(36, 36, 36, 0.7);
+  backdrop-filter: blur(3px);
+}
